@@ -1,0 +1,48 @@
+.header {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.botonmenu {
+width: 150px;
+height: 150px;
+top: auto;
+right: auto;
+bottom: 0;
+left: 0;
+padding: 50px;
+background: #000;
+position: fixed;
+}
+
+.home {
+  width: 100%;
+  height: 750px;
+  background-color: #A86464;
+  padding-top: 150px;
+}
+
+.vertical {
+  font-size: 12px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  margin-left: 152px;
+}
+
+h1, p, .vertical {
+  padding-left: 152px;
+  text-align: left;
+  font-family: "Poppins";
+}
+
+h1 {
+font-size: 100px;
+visibility: inherit;
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+p {
+font-size: 16px;
+font-family: "Poppins";
+}
