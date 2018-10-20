@@ -15,6 +15,12 @@ body {
   }
 }
 
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+}
+
 .container {
   width: 150px;
   height: 100%;
@@ -27,9 +33,9 @@ body {
 
 .botonmenu {
 width: 150px;
-height: 150px;
+height: 130px;
 padding: 65px 0px 0px 0px;
-background: #000;
+background-image: url("imagenes/menu.png");
 align-self: flex-end;
 }
 
@@ -49,10 +55,9 @@ align-self: flex-end;
 
 .palos {
   background-image: url("imagenes/fondopalos.png");
-  height: 600px;
+  height: 800px;
   padding-left: 150px;
-  padding-top: 50px;
-  color: #fff;
+  padding-top: 130px;
 }
 
 .footer {
@@ -86,13 +91,19 @@ font-weight: bold;
 
 h2 {
 font-size: 25px;
-font-weight: 400;
+font-weight: 500;
 }
 
 h3 {
 font-size: 25px;
 font-weight: 400;
 text-decoration: underline;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1,7;
 }
 
 
